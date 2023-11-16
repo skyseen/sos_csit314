@@ -1,0 +1,98 @@
+body {
+
+    background: #9370DB	;
+    display: flex;
+    align-items: left;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+*{
+
+    font-family:"Times New Roman", Times, serif;
+    box-sizing: padding-box;
+
+}
+
+form {
+
+    width: 300px;
+	height:80px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 30px;
+    background: rgb(203, 212, 212);
+    border-radius: 20px;
+	margin-top: 10px;
+	
+}
+
+
+form button {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+input {
+
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+label {
+
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+button {
+
+    margin-top:10px;
+    background: rgb(0, 0, 0);
+    padding: 15px 80px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+
+}
+
+button:hover{
+
+    opacity: .90;
+    background-color: white;
+    color: black;
+
+}
+
+
+h2{
+	 font-size: 40px;
+	 color: rgb(255,215,0);
+	
+}
+
+table {
+  width: 75%;
+  border-collapse: collapse;
+  margin-top: 20px;
+ 
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #333;
+  color: white;
+}
+
+table tr{
+  background-color: #f2f2f2;
+}
